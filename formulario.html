@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stile.css">
+  <title>Formulario Registro</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/form.css">
+<!--<link rel="stylesheet" href="css/style.css"> -->
+
+</head>
+<body>
+	<div class="contenedor active" id="contenedor">
+		<header class="header">
+			<!--LOGOTIPO  -->
+			<div class="contenedor-logo">
+				<button id="boton-menu" class="boton-menu"><i class="fas fa-bars"></i></button>
+				<a href="index.html" class="logo"><i class="fa-solid fa-tv-music"></i> <span>TALEND-MUSIC</span></a>
+			</div>
+
+			<!--BARRA DE BUSQUEDA-->
+			<div class="barra-busqueda">
+				<input type="text" placeholder="Buscar">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</div>
+
+			<!--BOTONES DE CUENTA-->
+			<div class="botones-header">
+				<button><i class="fas fa-upload"></i></button>
+				<button><i class="fas fa-th"></i></button>
+				<button><i class="fas fa-bell"></i></button>
+				<a href="formulario.html" class="avatar"><img src="img/avatar.jpg" alt=""></a>
+			</div>
+		</header>
+
+			<!--MENU LATERAL-->
+			<nav class="menu-lateral">
+			<a href="#" class="active"><i class="fas fa-home"></i> Página Principal</a>
+			<a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+			<a href="#"><i class="fas fa-star"></i> Talentos</a>
+			<hr>
+			<!--MENU LATERAL 2-->
+			<a href="#"><i class="fas fa-folder"></i> Indie Rock</a>
+			<a href="#"><i class="fas fa-folder"></i> Música pop</a>
+			<a href="#"><i class="fas fa-folder"></i> Dubstep</a>
+			<hr>
+			<!--MENU LATERAL 3-->
+			<a href="#"><i class="fas fa-folder"></i> Reggueton</a>
+			<a href="#"><i class="fas fa-folder"></i> Música rock</a>
+			<a href="#"><i class="fas fa-folder"></i> Jazz</a>
+		</nav>
+
+		<!--Comienza formulario-->
+		<div class="container">
+			<form action="" class="form" id="form" autocomplete="off">
+			  <p class="form-titulo">Regístrate</p>
+			  <div class="form-input myname">
+				<input type="text" id="myname">
+				<label for="myname">Nombre</label>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-input surname">
+				<input type="text" id="surname">
+				<label for="surname">Apellidos</label>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-input email">
+				<input type="email" id="email">
+				<label for="email">Correo electrónico</label>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-input mobile">
+				<input type="text" id="mobile">
+				<label for="mobile">Celular</label>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-input password">
+				<input type="password" id="password">
+				<label for="password">Contraseña</label>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-input repeatPassword">
+				<input type="password" id="repeatPassword">
+				<label for="repeatPassword">Repetir Contraseña</label>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-termsAndConditions termsAndConditions">
+				<input type="checkbox" id="termsAndConditions">
+				<label for="termsAndConditions">He leído y acepto los </label>
+				<a href="#">Términos y Condiciones</a>
+				<p class="mensajeError"></p>
+			  </div>
+			  <div class="form-boton" >
+				<input type="submit" value="Enviar">
+			  </div>
+			  <p class="mensajeCorrecto"></p>
+			</form>
+		  </div>
+		  <script src="js/form.js"></script>
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</body>
+</html>

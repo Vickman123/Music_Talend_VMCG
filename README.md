@@ -1,1 +1,4 @@
-# Music_Talend_VMCG
+Programa hecho por :
+
+Sanchez Romero Luis Fernando
+Carreño Garavito VIctor Manuel
